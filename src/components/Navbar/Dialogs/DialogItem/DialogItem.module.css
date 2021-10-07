@@ -1,0 +1,20 @@
+.dialogItem {
+  padding: 10px;
+}
+.dialogItem a {
+  display: flex;
+  padding-left: 5px;
+  text-decoration: none;
+  color: firebrick;
+}
+.dialogItem a img {
+  width: 40px;
+  height: 40px;
+}
+.dialogItem a.activeLink {
+  color: blueviolet;
+  transform: scale(1.1);
+}
+.name {
+  align-self: center;
+}

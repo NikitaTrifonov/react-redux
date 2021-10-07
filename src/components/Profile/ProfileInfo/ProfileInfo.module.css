@@ -1,0 +1,29 @@
+.descriptionBlock {
+  margin: 10px;
+  display: flex;
+}
+
+.info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fullName {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.aboutMe {
+  font-style: italic;
+}
+
+.job {
+  margin-left: 10px;
+}
+
+.lookingForAJob img {
+  margin-top: 20px;
+  width: 140px;
+  height: 200px;
+}

@@ -1,0 +1,24 @@
+.nav {
+  grid-area: n;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.item {
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+}
+
+.item:hover {
+  background-color: greenyellow;
+  opacity: 0.7;
+}
+.item a {
+  text-decoration: none;
+  color: teal;
+}
+
+.item a.activeLink {
+  color: blue;
+}
