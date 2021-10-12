@@ -75,7 +75,7 @@ const userReducer = (state = initialState, action) => {
 
 export const followSuccess = (userId) => ({ type: FOLLOW, userId });
 
-export const unfollowSucces = (userId) => ({ type: UNFOLLOW, userId });
+export const unfollowSuccess = (userId) => ({ type: UNFOLLOW, userId });
 
 export const setUsers = (users) => ({ type: SET_USERS, users });
 
@@ -128,7 +128,7 @@ export const unfollow = (userId)=>{
 
         usersAPI.unfollow(userId).then((data) => {
             if (data.resultCode === 0) {
-                dispatch(unfollowSucces(userId));
+                dispatch(unfollowSuccess(userId));
             }
             dispatch(toggleFollowProcess(false, userId));
         });
